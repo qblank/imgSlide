@@ -65,8 +65,6 @@ function animate(ele,json,fn){
                 bool = false;
             }
         }
-
-        console.log(1);
         //只有所有的属性都到了指定位置，bool值才不会变成false；
         if(bool){
             clearInterval(ele.timer);
